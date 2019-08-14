@@ -24,7 +24,7 @@
 <layout version="0.1.0">	
 	
 	
-	<catalog_category_default>
+	<catalog_category_view>
 		
 		<reference name="head">
 			<action method="addItem"><type>skin_js</type><name>jefferson/js/jquery.js</name></action>
@@ -34,10 +34,14 @@
 		</reference>
 		
 		<reference name="content">
-			<block type="promocao/promocao" name="promocaoCategory" template="promocaocategory/promocao.php" before="" />
+			<block type="promocao/promocao" name="promocaoCategory" before="">
+				<action method="setTemplate" ifconfig="catalog/jefferson_promocao/enable">
+					<template>promocaocategory/promocao.phtml</template>
+				</action>	
+			</block>
 		</reference>
 		
-	</catalog_category_default>
+	</catalog_category_view>
 	
 
 </layout>

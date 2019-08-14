@@ -27,13 +27,8 @@
 */
 
 ?>
-
-<?php
-	
-	if($this->getActive() == '1'):
-		
-		$_product = $this->getProducts(); 
-?>
+<div class="jefferson_promocao">
+<?php $_product = $this->getProducts(); ?>
 
 		<?php if($_product): ?>	
 			<ul class="bxslider">	
@@ -43,8 +38,8 @@
 								<div class="container_img_bx">
 									 <a href="<?php echo $item->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($item, 'small_image'), null, true) ?>" 
 									 class="product-image">
-										<img src="<?php echo $this->helper('catalog/image')->init($item, 'small_image')->keepFrame(false)->resize($this->getImgSize()); ?>" />
-						             </a>		
+										<img src="<?php echo $this->helper('catalog/image')->init($item, 'small_image')->keepFrame(true)->resize($this->getImgSize(),$this->getImgSize()); ?>" />
+						             </a>
 							         
 							         <?php if($item->getSpecialPrice() > 0 ): ?>    
 							          
@@ -79,6 +74,6 @@
 					<?php	}  ?>
 			</ul>		
 		<?php endif; ?>	
-		
-	<?php endif; ?>			
+</div>		
+	
 

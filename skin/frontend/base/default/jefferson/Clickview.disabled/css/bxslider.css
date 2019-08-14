@@ -15,57 +15,56 @@
 ===================================*/
 
 @media(max-width:768px){
-	.jefferson_promocao .container_img_bx {
+	.container_img_bx {
 		width: 100% !important;
 	}
 	
-	.jefferson_promocao .container_info_bx {
+	.container_info_bx {
 		width: 100% !important;
 		word-wrap:break-word;
 	}
 	
-	.jefferson_promocao .bx-wrapper li img {
+	.bx-wrapper li img {
 		float: none !important;
 		text-align: center !important;
   		margin: 0 auto !important;
 	}
 	
-	.jefferson_promocao .perc {
+	.perc {
 		float: none !important;
 		margin: 10px auto !important;
 	}
 }
 
-.jefferson_promocao .container_info_bx {
+.container_info_bx {
 	float: right;
     display: inline-block;
     width: 50%;
 }
 
-.jefferson_promocao .container_img_bx {
+.container_img_bx {
 	float: left;
   	width: 48%;
 }
 
-.jefferson_promocao .perc {
+.perc {
 	border-radius: 5%;
-	width: 65px;
-	height: 35px;
+	width: 55px;
+	height: 25px;
 	background: #3399CC;
 	text-align: left;
-	line-height: 35px;
+	line-height: 25px;
 	color: #fff;
 	display: inline-block;
-	padding: 0 5px;
+	padding: 0 8px;
 	font-weight: bold;
-	font-size: 18px;
-	float: left;
-	margin-left: -15px;
-	margin-top: 10px;
-	position: relative;
+	font-size: 13px;
+	top: 10px;
+	right: 10px;
+	position: absolute;
 }
 
-.jefferson_promocao .product-cta {
+.product-cta {
 	text-align: center;
 	  background: #3399CC;
 	  color: #fff;
@@ -78,14 +77,14 @@
 	  font-weight: bold;
 }
 
-.jefferson_promocao .bx-wrapper {
+.bx-wrapper {
 	position: relative;
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
 }
 
-.jefferson_promocao .bx-wrapper img {
+.bx-wrapper img {
 	max-width: 100%;
 	display: block;
 }
@@ -93,12 +92,12 @@
 /** THEME
 ===================================*/
 
-.jefferson_promocao .bx-wrapper img,
-.jefferson_promocao .bx-wrapper a {
+.bx-wrapper img,
+.bx-wrapper a {
 	border: none;
 }
 
-.jefferson_promocao .bx-wrapper .bx-viewport {
+.bx-wrapper .bx-viewport {
 	/*-moz-box-shadow: 0 0 5px #ccc;*/
 	/*-webkit-box-shadow: 0 0 5px #ccc;*/
 	/*box-shadow: 0 0 5px #ccc;*/
@@ -114,8 +113,8 @@
     	transform: translatez(0);
 }
 
-.jefferson_promocao .bx-wrapper .bx-pager,
-.jefferson_promocao .bx-wrapper .bx-controls-auto {
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: -30px;
 	width: 100%;
@@ -123,7 +122,7 @@
 
 /* LOADER */
 
-.jefferson_promocao .bx-wrapper .bx-loading {
+.bx-wrapper .bx-loading {
 	min-height: 50px;
 	background: url(images/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
@@ -136,7 +135,7 @@
 
 /* PAGER */
 
-.jefferson_promocao .bx-wrapper .bx-pager {
+.bx-wrapper .bx-pager {
 	text-align: center;
 	font-size: .85em;
 	font-family: Arial;
@@ -145,14 +144,14 @@
 	padding-top: 20px;
 }
 
-.jefferson_promocao .bx-wrapper .bx-pager .bx-pager-item,
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
 }
 
-.jefferson_promocao .bx-wrapper .bx-pager.bx-default-pager a {
+.bx-wrapper .bx-pager.bx-default-pager a {
 	background: #666;
 	text-indent: -9999px;
 	display: block;
@@ -165,34 +164,34 @@
 	border-radius: 5px;
 }
 
-.jefferson_promocao .bx-wrapper .bx-pager.bx-default-pager a:hover,
-.jefferson_promocao .bx-wrapper .bx-pager.bx-default-pager a.active {
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #000;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-.jefferson_promocao .bx-wrapper .bx-prev {
+.bx-wrapper .bx-prev {
 	/* left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px; */
 	display: none;
 }
 
-.jefferson_promocao .bx-wrapper .bx-next {
+.bx-wrapper .bx-next {
 	right: 10px;
 	background: url(images/controls.png) no-repeat -43px -32px;
 	display: none;
 }
 
-.jefferson_promocao .bx-wrapper .bx-prev:hover {
+.bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
 
-.jefferson_promocao .bx-wrapper .bx-next:hover {
+.bx-wrapper .bx-next:hover {
 	background-position: -43px 0;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-direction a {
+.bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
@@ -203,17 +202,17 @@
 	z-index: 9999;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-direction a.disabled {
+.bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
 }
 
 /* AUTO CONTROLS (START / STOP) */
 
-.jefferson_promocao .bx-wrapper .bx-controls-auto {
+.bx-wrapper .bx-controls-auto {
 	text-align: center;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-start {
+.bx-wrapper .bx-controls-auto .bx-start {
 	display: block;
 	text-indent: -9999px;
 	width: 10px;
@@ -223,12 +222,12 @@
 	margin: 0 3px;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-start:hover,
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-start.active {
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
 	background-position: -86px 0;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-stop {
+.bx-wrapper .bx-controls-auto .bx-stop {
 	display: block;
 	text-indent: -9999px;
 	width: 9px;
@@ -238,36 +237,36 @@
 	margin: 0 3px;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-stop:hover,
-.jefferson_promocao .bx-wrapper .bx-controls-auto .bx-stop.active {
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
 	background-position: -86px -33px;
 }
 
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 
-.jefferson_promocao .bx-wrapper li {
+.bx-wrapper li {
 	text-align: center;
 }
 
-.jefferson_promocao .bx-wrapper li img{
+.bx-wrapper li img{
 	text-align: left;
 	float: left;
 }
 
 
-.jefferson_promocao .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: left;
 	width: 80%;
 }
 
-.jefferson_promocao .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
 	right: 0;
 	width: 35px;
 }
 
 /* IMAGE CAPTIONS */
 
-.jefferson_promocao .bx-wrapper .bx-caption {
+.bx-wrapper .bx-caption {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -276,7 +275,7 @@
 	width: 100%;
 }
 
-.jefferson_promocao .bx-wrapper .bx-caption span {
+.bx-wrapper .bx-caption span {
 	color: #fff;
 	font-family: Arial;
 	display: block;

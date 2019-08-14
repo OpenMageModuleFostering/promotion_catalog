@@ -2,9 +2,9 @@
 	
 	$jbp(document).ready(function(){
 		
-		$jbp('.bxslider').bxSlider({
+		$jbp('.jefferson_promocao .bxslider').bxSlider({
 		
-			// auto:true,
+			auto:true,
 			mode: 'fade',
 			minSlides: 1,
 		    maxSlides: 1,
@@ -13,7 +13,7 @@
 		  });
 		
 		$jbp(window).load(function(){
-			$jbp('.bxslider').css('opacity','1');
+			$jbp('.jefferson_promocao .bxslider').css('opacity','1');
 		});
 		
 	});
