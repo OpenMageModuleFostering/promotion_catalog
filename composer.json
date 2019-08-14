@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/promotion_catalog",
+    "type": "magento-module",
+    "license": "Open-Software-License-v.-3.0-(OSL-3.0)",
+    "homepage": "",
+    "description": "This module aims to enable the user to put featured products at the top of categories",
+    "authors": [
+    {
+        "name": "Jefferson Batista Porto",
+        "email": "jefferson.b.porto@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
